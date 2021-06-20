@@ -14,7 +14,7 @@ import (
 	Script will list the contents of an S3 bucket
 */
 
-func main() {
+func getBucketContentsFromS3() {
 	fmt.Println("✅ Starting S3 Demo.")
 	// creating a context, don't know why this is used
 	ctx := context.TODO()
