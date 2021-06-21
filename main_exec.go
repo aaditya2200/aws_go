@@ -3,6 +3,6 @@ package main
 // Where all scripts are run
 
 func main() {
-	getBucketContentsFromS3()
+	//getBucketContentsFromS3()
 	getTablesFromDynamoDb()
 }
